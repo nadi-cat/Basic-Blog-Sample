@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/styles/layout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap" rel="stylesheet">
+    <title>Simple Blog Sample</title>
+
+</head>
+
+<body>
+
+    <h1>Create a New Post</h1>
+    <!--When form submitted it will send a post request to /create route-->
+    
+    <form action="/create" onsubmit="" method="POST">
+        <label for="postContent">Title</label>
+        <!--User submission will be accessible as req.body.postContent-->
+        <textarea name="postContent" id="postContent" rows="2" cols="50" maxlength="100"></textarea>
+        <br>
+        <label for="postDesc">Content</label>
+        <textarea name="postDesc" id="postDesc" rows="4" cols="50" required></textarea>
+        <br>
+        <button type="submit">Submit Post</button>
+    </form>
+    
+</body>
+
+<footer>Copyright nadiCat</footer>
+</html>

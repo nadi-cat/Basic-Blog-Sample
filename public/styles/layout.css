@@ -6,12 +6,12 @@ html{
 
 h1{
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
     padding-top: 30px;
 }
 
 h2{
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 15px;
 }
 
@@ -38,7 +38,7 @@ h2{
   
   .blogimg{
     display: grid;
-    width: 80%;
+    width: 60%;
     margin: auto;
     padding-top: 30px;
   }
@@ -106,6 +106,8 @@ textarea {
   border-radius: 4px;
   font-size: 2em;
 }
+
+
 
 @media screen and (max-width: 900px) {
   button{
