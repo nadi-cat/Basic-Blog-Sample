@@ -66,14 +66,15 @@ button:hover{
 }
 
 .anchor{
-  font-size: 2em;
+  font-size: 1em;
   text-align: right;
   padding-bottom: 30px;
   padding-right: 30px;
-  
 }
+
 a:link{
-  text-decoration: dotted;
+  text-decoration: underline;
+  color: #040302;
 }
 
 a:visited {

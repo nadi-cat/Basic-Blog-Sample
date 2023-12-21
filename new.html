@@ -12,8 +12,10 @@
 </head>
 
 <body>
+    
 
     <h1>Create a New Post</h1>
+    <div class="anchor"> <a href="index.html">Home</a></div>
     <!--When form submitted it will send a post request to /create route-->
     
     <form action="/create" onsubmit="" method="POST">
@@ -24,7 +26,7 @@
         <label for="postDesc">Content</label>
         <textarea name="postDesc" id="postDesc" rows="4" cols="50" required></textarea>
         <br>
-        <button type="submit">Submit Post</button>
+        <button type="submit" disabled>Submit Post</button>
     </form>
     
 </body>
